@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mundo</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="shortcut icon" type="image/png" href="">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="título">
+            <h1>FORMULARIO DE ADMISIÓN DEL PAÍS</h1>
+            <p>No todo el que quiera puede entrar en el país libremente. Tendrá que enviar con
+                sus datos el formulario y un miembro de la administración decidirá su admisión.
+                También tendrá que indicar por qué debería ser admitido.</p>
+        </div>
+        <div class="contenido">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+                Introduzca su nombre:
+                <input type="text" name="nombre" size="30">
+                <br><br>
+
+                Selecciona de qué pais procedes:<br>
+                <select name="pais" size="5">
+                    <option value="1">España</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Suiza</option>
+                    <option value="4">Uruguay</option>
+                    <option value="5">Ecuador</option>
+                    <option value="6">Chile</option>
+                    <option value="7">Cuba</option>
+                    <option value="8">Perú</option>
+                    <option value="9">México</option>
+                    <option value="10">Panamá</option>
+                </select><br>
+                Otro:<input type="text"><br><br>
+
+                Adjunta foto de indetificación (tiene que identificarte, no tiene que ser seria ni de tu cara,
+                puede ser creativa):<br>
+                <input type="file" name="foto">
+                <br><br>
+
+                Ingrese email de contacto:<br>
+                <input type="email"><br><br>
+
+                Género: <br>
+                <input type="radio" name="género" value="1" disabled>Hombre<br>
+                <input type="radio" name="género" value="2">Mujer<br>
+                <input type="radio" name="género" value="3">Otro<br><br>
+
+                ¿Qué idiomas hablas?:<br>
+                <input type="checkbox" name="español">español<br>
+                <input type="checkbox" name="inglés">inglés<br><br>
+
+                Edad:<br>
+                <input type="number"><br><br>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Información específica</legend>
+                ¿Por qué quiere ir al país?: <br>
+                <textarea name="comentarios" rows="7" cols="70"></textarea>
+                <br><br>
+
+                Fecha para iniciar la visita: <br>
+                <input type="month"><br><br>
+
+                Selecciona color de camiseta oficial de la isla:
+                <input type="color"><br><br>
+
+
+                Razones por las que debería der admitido: <br>
+                <textarea name="comentarios" rows="7" cols="70">Trate de convencernos</textarea>
+                <br><br>
+
+                <br>
+                <textarea name="comentarios" rows="5" cols="40">
+            Ingrese aquí algo que quiera añadir.</textarea><br>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar<img src="./imagenes/send2.png" alt="envio"></button>
+            <button type="reset">Borrar<img src="./imagenes/papelera.png" alt="borrado"></button>
+            </form>
+            <br>
+            <p> </p>
+        </div>
+    </div>
+</body>
+
+</html>
