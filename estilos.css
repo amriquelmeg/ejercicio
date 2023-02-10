@@ -1,0 +1,8 @@
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;background-color: lightblue;}
+figure {text-align: center;}
+.izquierda {margin: 10px; background-color: lightgreen;width: 250px; position: absolute; left: 0px;}
+.izquierda a {display: block; padding: 3px;   text-align: left;}
+.titulo {text-align: center; background-color: lightblue; position: fixed; top: 0; width: 100%;}
+.derecha {margin-left: 270px; background-color: rgb(174, 236, 174);}
+.pie{position: fixed; bottom: 0; width: 100%;}
+.contenido{background-color: lightgreen;}
